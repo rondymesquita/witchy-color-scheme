@@ -1,0 +1,21 @@
+{
+  "name": "witchy-color-scheme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "themer -c ./colors -t ./template -o '/Users/alvarosilva/Library/Application Support/Sublime Text 3/Packages/User/'",
+    "dev": "nodemon --watch colors.js --watch template.js --exec 'npm run build'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "plist": "^3.0.1",
+    "themer": "^3.1.6",
+    "themer-sublime-text": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
