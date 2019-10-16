@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "themer -c ./colors -t ./template -o '/Users/alvarosilva/Library/Application Support/Sublime Text 3/Packages/User/'",
+    "build": "themer -c ./colors -t ./template -o '/Users/alvarosilva/Library/Application Support/Sublime Text 3/Packages/User/Witchy'",
     "dev": "nodemon --watch colors.js --watch template.js --exec 'npm run build'"
   },
   "author": "",
