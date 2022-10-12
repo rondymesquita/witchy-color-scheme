@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "plist": "^3.0.1",
+    "plist": "^3.0.6",
     "themer": "^3.1.6",
     "themer-sublime-text": "^2.0.2"
   },
